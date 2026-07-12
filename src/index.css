@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.color-btn {
+  padding: 8px 12px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+.color-btn.active {
+  border: 3px solid black;
+  font-weight: bold;
+}
+
+.preview-section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.preview-box {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  border-radius: 40px;
+}
+.preview-box.empty {
+  border: 2px dashed #aaa;
+  background-color: #eee;
+}
+
+.reset-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
